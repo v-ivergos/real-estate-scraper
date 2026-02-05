@@ -8,9 +8,18 @@ dotenv.config();
 
 const FIREBASE_API_URL = process.env.FIREBASE_API_URL;
 
+export async function postHouses(houses) {
+    console.log("i send " + houses.length + " houses")
+    return fetch(`${FIREBASE_API_URL}/houses`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(houses)
+    });
+}
+
 export async function scrapeXE() {
     const browser = await chromium.launch({
-        headless: true,
+        headless: false,
         slowMo: 50
     });
 
@@ -37,6 +46,7 @@ export async function scrapeXE() {
     let totalResults = 0;
     const site = websites[0];
     const seen = new Set();
+    let totalListings = [];
 
     console.log(`Ξεκινάμε scraping από: ${site.name}`);
 
@@ -49,7 +59,7 @@ export async function scrapeXE() {
 
     await page.goto(startUrl.toString(), { waitUntil: "domcontentloaded" });
     await humanIdle(page);
-    // await autoScroll(page);
+    await autoScroll(page);
 
     const totalPages = await page.evaluate(() => {
         const pagination = document.querySelector("ul.results-pagination");
@@ -116,22 +126,23 @@ export async function scrapeXE() {
         for (const listing of listings) {
             if (!listing.id || seen.has(listing.id)) continue;
             seen.add(listing.id);
-
-            try {
-                // await fetch(`${FIREBASE_API_URL}/houses`, {
-                //     method: "POST",
-                //     headers: { "Content-Type": "application/json" },
-                //     body: JSON.stringify(listing)
-                // });
-                console.log("Saved:", listing.title);
-            } catch (err) {
-                console.error("Save failed:", err.message);
-            }
+            totalListings.push(listing)
+            // try {
+            //     await fetch(`${FIREBASE_API_URL}/houses`, {
+            //         method: "POST",
+            //         headers: { "Content-Type": "application/json" },
+            //         body: JSON.stringify(listing)
+            //     });
+            //     console.log("Saved:", listing.title);
+            // } catch (err) {
+            //     console.error("Save failed:", err.message);
+            // }
 
             await sleep(500 + Math.random() * 1000);
         }
 
         totalResults += listings.length;
+
         console.log(`Σύνολο αγγελιών: ${totalResults}`);
 
         if (pageNum % 8 === 0) {
@@ -145,7 +156,8 @@ export async function scrapeXE() {
     await context.storageState({ path: "state.json" });
     await context.close();
     await browser.close();
-
+    const response = await postHouses(totalListings)
+    response.json().then(x => console.log(x))
     console.log("Scraping ολοκληρώθηκε. Σύνολο:", totalResults);
 }
 
@@ -170,3 +182,6 @@ async function autoScroll(page) {
 function sleep(ms) {
     return new Promise(r => setTimeout(r, ms));
 }
+
+
+

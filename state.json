@@ -1,6 +1,16 @@
 {
   "cookies": [
     {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwgm3PUWhIydY-nMKm8FOFVIP3FEMb1TP-xkWeyDPlFUqJsIZOxeuXXHDIGJ2M1f2wx9eGwqrFHW95jmv9Q",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1785859233.569146,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
       "name": "device_resolution",
       "value": "1366x768",
       "domain": "www.xe.gr",
@@ -21,16 +31,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "_ga",
-      "value": "GA1.1.1069109985.1770294395",
-      "domain": ".xe.gr",
-      "path": "/",
-      "expires": 1804854394.866957,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "_ga_S00JV588D8",
       "value": "GS2.1.s1770294394$o1$g1$t1770294406$j48$l0$h0",
       "domain": ".xe.gr",
@@ -45,7 +45,7 @@
       "value": "CQfJqcAQfJqcAAKA8AELCQFgAAAAAEPgAAyIAAAX3ABMNCogjLIgQCBQMIIEACgrCACgQBAAAkDRAQAmDAhyBgAusJkAIAUAAwQAgABBgACAAASABCIAIACAQAgQCBQABgAQBAQAMDAAGACxEAgABAdAxTAggECwASMyqDTAlAASCAlsqEEoGBBXCEIs8AggREwUAAAIABQAAADwWAhJICViQQBcQTQAAEAAAUQIkCKQswBBUGaLQVgScBkaYBg-YJklOgyAJghIyDIhN-Ew8UhRAghyA2KWYA6eIKAEAAAA.IAAA.YAAAAAAAAAAA",
       "domain": ".www.xe.gr",
       "path": "/",
-      "expires": 1803990503.985963,
+      "expires": 1804003250.287386,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -55,7 +55,7 @@
       "value": "1~",
       "domain": ".www.xe.gr",
       "path": "/",
-      "expires": 1803990503.986041,
+      "expires": 1804003250.287465,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -65,40 +65,70 @@
       "value": "DBABMA~CQfLYDeQfLYDeAKA8AELCQFgAAAAAEPgAAyIAAAX3ABMNCogjLIgQCBQMIIEACgrCACgQBAAAkDRAQAmDAhyBgAusJkAIAUAAwQAgABBgACAAASABCIAIACAQAgQCBQABgAQBAQAMDAAGACxEAgABAdAxTAggECwASMyqDTAlAASCAlsqEEoGBBXCEIs8AggREwUAAAIABQAAADwWAhJICViQQBcQTQAAEAAAUQIkCKQswBBUGaLQVgScBkaYBg-YJklOgyAJghIyDIhN-Ew8UhRAghyA2KWYA6eIKAEAAAA.YAAAAAAAAAAA",
       "domain": ".www.xe.gr",
       "path": "/",
-      "expires": 1803990503.986077,
+      "expires": 1804003250.2875,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "csrf_token",
-      "value": "tC82ttGnC4aOaQNDRKJQTzTIepQaRGalbX4YE7Gfw7p5C2S4cWm0Brh%2BFqH2z%2FxltIg%2B3HBSD4lMAlt5cyBdeB8DnHq34bzW84qxDwxwGHcoWUIjsI6YmTvbxOtaxSSPSlZ1s%2B6foKtaHcopdyLby04ii2J%2FYNvpW7ApeyC4RNBRQ6SKj99dgkr9%2FQb5mmoDVSXBRkdF3UHcd0JdEUzYqdpK3Uw7vLgNUVuf086277qG%2BXkNcOFVo4Fn3vlirgUxUiwfqRr79onSmIpg99SBbnEvdGkvLnOw%2BKTniJrzxFUUO4a1lB8SdFA7Tha8YG%2FB5S%2Fx5ijlGuT75H4%2Bv3ihHg%3D%3D--C1YPNuCT4aOH7Vrp--98pqkfQdPlaRxTqPYzCbLA%3D%3D",
-      "domain": "www.xe.gr",
+      "name": "_ga",
+      "value": "GA1.2.1069109985.1770294395",
+      "domain": ".xe.gr",
       "path": "/",
-      "expires": 1804854503.751008,
-      "httpOnly": true,
+      "expires": 1804867232.432524,
+      "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "_rodeo_session",
-      "value": "iuVFdJ4TFSGWAiEvxsUiFrnIpjB7k8qcF7K1FMNTvtFPPw9aAzx4g7jPpBlkBRXsrfGp%2FhpIWyqunUoAX%2F33u%2BMxJZ3a%2BaBz2z4InUeoCXcjqkQqn5RbXsyoIYVcB7EEHLvQbk%2B72H7EmAqZ5KcrW8Q%2FK97iE%2B9jb7ojyzgEPGYiDqZkq58K156fHfhMEvQWfd2eWSKHiZxJAAE4--raatZyjaKifAnCuU--ZuXX9j5tT8pwzgcQ96t%2FoA%3D%3D",
-      "domain": "www.xe.gr",
+      "name": "_gid",
+      "value": "GA1.2.1764626282.1770303615",
+      "domain": ".xe.gr",
       "path": "/",
-      "expires": 1770985703.75111,
-      "httpOnly": true,
+      "expires": 1770393632,
+      "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "__eoi",
-      "value": "ID=9fbd26f5372618b7:T=1770294509:RT=1770294509:S=AA-Afjbno29as1m-qorKPvvkdrjC",
+      "value": "ID=9fbd26f5372618b7:T=1770294509:RT=1770307135:S=AA-Afjbno29as1m-qorKPvvkdrjC",
       "domain": ".xe.gr",
       "path": "/",
       "expires": 1785846509,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1770308132.493568,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "csrf_token",
+      "value": "N2Qbu93ZcjG1FXMv8zbZzOOXyZ4rCjOFcvvs76Q%2FkPKwE%2FGK19K3LxTs%2BrWlaYVRYVqpho0iKe30B4OdDu5GFYaDdVB6WKQzGx%2FuNyEpX4NnE7vI%2B%2BotXU6itBezDIMdVAtur8jZ2Lw8JNByi1X2EF0v%2FcqRE7c4FGADuch3IVqDjUybVR9P8FOBTaPpmbEjlbuTPd2Se%2FCiaq9P%2F3Pk7w4BwrpP74r%2FXqruJchXA5PE3p6x3D5xtlggZDOEr0Y4aqEtFMFt5CNPBZJrw07lJvd0l1TsP8pxhE%2B31qzKoWm0PpR8Pd0jm%2ByHtJNRvVlkY231bUx7B2YlFHXBeD68mA%3D%3D--e58Jn7nuNMkF8Ywo--Rw9BGEDCtPGdNBE%2Bf%2BkFTg%3D%3D",
+      "domain": "www.xe.gr",
+      "path": "/",
+      "expires": 1804867250.051086,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_rodeo_session",
+      "value": "TnM%2FyS3pJN7S%2FsW1ou9R7HPfKSyM21HZeMi7Km8Ma3BHnWL%2FiHJK4i0NLEcVDf9oTppA5gtAAFXRAB%2FSPH9QXMnRPG97WN%2FGSogRco9P1mMZmdadSmCOxNnQ79FAMnfVOdcEbNZtl%2FELS4P%2BhfkNWZjUDmuvty7nFYE4133e8WX2H76IGmB02kK%2F8nxrzDQpgM%2BnROUoxf6ZtiWx--2z1sKBDecMQTazxj--vnYi1mo0YCwqYFTVx7OSjw%3D%3D",
+      "domain": "www.xe.gr",
+      "path": "/",
+      "expires": 1770998450.051196,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
     }
   ],
   "origins": [
@@ -110,23 +140,11 @@
           "value": "[{\"id\":1,\"selected\":false},{\"id\":2,\"selected\":false},{\"id\":3,\"selected\":false},{\"id\":4,\"selected\":false},{\"id\":5,\"selected\":false},{\"id\":6,\"selected\":false},{\"id\":7,\"selected\":false}]"
         },
         {
-          "name": "i18nextLng",
-          "value": "el"
-        },
-        {
-          "name": "gdpr_encoding_modes",
-          "value": "TCF_AND_GPP"
-        },
-        {
           "name": "NRBA_SESSION",
-          "value": "{\"value\":\"5ff902fc789c9e4d\",\"inactiveAt\":1770296317273,\"expiresAt\":1770308795003,\"updatedAt\":1770294517273,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":2,\"logApiMode\":2,\"serverTimeDiff\":-544,\"custom\":{},\"numOfResets\":0,\"consent\":false}"
+          "value": "{\"value\":\"3a9d5ad65a946444\",\"inactiveAt\":1770309066301,\"expiresAt\":1770318028388,\"updatedAt\":1770307266301,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":2,\"logApiMode\":2,\"serverTimeDiff\":-447,\"custom\":{},\"numOfResets\":0,\"consent\":false}"
         },
         {
           "name": "_acceptanceState",
-          "value": "Reject"
-        },
-        {
-          "name": "_gbcAcceptanceState",
           "value": "Reject"
         },
         {
@@ -138,10 +156,6 @@
           "value": "false"
         },
         {
-          "name": "CMPList",
-          "value": "{\"lastUpdated\":\"2026-01-29T17:11:34Z\",\"CMP\":[\"2\",\"3\",\"5\",\"6\",\"7\",\"9\",\"10\",\"14\",\"18\",\"21\",\"23\",\"25\",\"27\",\"28\",\"30\",\"31\",\"35\",\"38\",\"44\",\"45\",\"46\",\"47\",\"50\",\"54\",\"58\",\"59\",\"61\",\"63\",\"65\",\"68\",\"69\",\"72\",\"76\",\"77\",\"79\",\"84\",\"90\",\"92\",\"96\",\"104\",\"105\",\"112\",\"113\",\"123\",\"125\",\"129\",\"134\",\"141\",\"162\",\"165\",\"167\",\"168\",\"170\",\"171\",\"181\",\"183\",\"185\",\"193\",\"198\",\"200\",\"212\",\"213\",\"217\",\"218\",\"220\",\"221\",\"222\",\"224\",\"225\",\"227\",\"229\",\"231\",\"235\",\"236\",\"237\",\"242\",\"246\",\"247\",\"252\",\"258\",\"259\",\"260\",\"264\",\"273\",\"277\",\"279\",\"280\",\"282\",\"284\",\"287\",\"291\",\"292\",\"294\",\"297\",\"299\",\"300\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"311\",\"312\",\"316\",\"317\",\"318\",\"319\",\"321\",\"322\",\"323\",\"327\",\"329\",\"330\",\"332\",\"335\",\"338\",\"339\",\"340\",\"341\",\"343\",\"345\",\"348\",\"350\",\"351\",\"352\",\"353\",\"354\",\"355\",\"358\",\"359\",\"360\",\"361\",\"363\",\"364\",\"367\",\"369\",\"371\",\"372\",\"373\",\"374\",\"376\",\"378\",\"379\",\"380\",\"382\",\"383\",\"384\",\"385\",\"386\",\"387\",\"388\",\"390\",\"391\",\"392\",\"393\",\"396\",\"397\",\"399\",\"401\",\"403\",\"404\",\"405\",\"406\",\"407\",\"408\",\"409\",\"410\",\"411\",\"412\",\"413\",\"414\",\"415\",\"416\",\"417\",\"418\",\"419\",\"420\",\"421\",\"422\",\"423\",\"424\",\"425\",\"426\",\"427\",\"428\",\"429\",\"430\",\"431\",\"432\",\"433\",\"434\",\"435\",\"436\",\"437\",\"438\",\"439\",\"440\",\"441\",\"442\",\"443\",\"444\",\"445\",\"446\",\"447\",\"448\",\"449\",\"450\",\"451\",\"452\",\"453\",\"454\",\"456\",\"457\",\"459\",\"462\",\"463\",\"464\",\"465\",\"471\",\"472\",\"473\",\"474\",\"475\",\"476\",\"480\",\"481\",\"482\",\"483\",\"488\",\"489\",\"491\",\"493\",\"495\"],\"expiry\":1770553594675}"
-        },
-        {
           "name": "_config",
           "value": "{\"gbcApplicable\":true,\"themeUuid\":\"ca97c8e6-223f-4bb3-9862-7c5b7415174f\",\"language\":\"el\",\"copApplicable\":false,\"advancedApplicable\":false}"
         },
@@ -150,12 +164,45 @@
           "value": "true"
         },
         {
-          "name": "noniabvendorconsent",
-          "value": "QfLYDeQfLYDeAKAaAAIA"
+          "name": "_grecaptcha",
+          "value": "09AKhCRwipST30zcxxLaVJzcjVn0EkOzXojA5nHsnLprhEMiSuvnTmaQFn3LARsDsbaac-adcRei-r1R9Q_E0EwWXzHoo751o5eMyiYvmBJuWpzWL8t-scF9C6CZUh-woO"
         },
         {
           "name": "visitTimestamp",
-          "value": "1770294394683"
+          "value": "1770307250291"
+        },
+        {
+          "name": "i18nextLng",
+          "value": "el"
+        },
+        {
+          "name": "gdpr_encoding_modes",
+          "value": "TCF_AND_GPP"
+        },
+        {
+          "name": "_gbcAcceptanceState",
+          "value": "Reject"
+        },
+        {
+          "name": "CMPList",
+          "value": "{\"lastUpdated\":\"2026-01-29T17:11:34Z\",\"CMP\":[\"2\",\"3\",\"5\",\"6\",\"7\",\"9\",\"10\",\"14\",\"18\",\"21\",\"23\",\"25\",\"27\",\"28\",\"30\",\"31\",\"35\",\"38\",\"44\",\"45\",\"46\",\"47\",\"50\",\"54\",\"58\",\"59\",\"61\",\"63\",\"65\",\"68\",\"69\",\"72\",\"76\",\"77\",\"79\",\"84\",\"90\",\"92\",\"96\",\"104\",\"105\",\"112\",\"113\",\"123\",\"125\",\"129\",\"134\",\"141\",\"162\",\"165\",\"167\",\"168\",\"170\",\"171\",\"181\",\"183\",\"185\",\"193\",\"198\",\"200\",\"212\",\"213\",\"217\",\"218\",\"220\",\"221\",\"222\",\"224\",\"225\",\"227\",\"229\",\"231\",\"235\",\"236\",\"237\",\"242\",\"246\",\"247\",\"252\",\"258\",\"259\",\"260\",\"264\",\"273\",\"277\",\"279\",\"280\",\"282\",\"284\",\"287\",\"291\",\"292\",\"294\",\"297\",\"299\",\"300\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"311\",\"312\",\"316\",\"317\",\"318\",\"319\",\"321\",\"322\",\"323\",\"327\",\"329\",\"330\",\"332\",\"335\",\"338\",\"339\",\"340\",\"341\",\"343\",\"345\",\"348\",\"350\",\"351\",\"352\",\"353\",\"354\",\"355\",\"358\",\"359\",\"360\",\"361\",\"363\",\"364\",\"367\",\"369\",\"371\",\"372\",\"373\",\"374\",\"376\",\"378\",\"379\",\"380\",\"382\",\"383\",\"384\",\"385\",\"386\",\"387\",\"388\",\"390\",\"391\",\"392\",\"393\",\"396\",\"397\",\"399\",\"401\",\"403\",\"404\",\"405\",\"406\",\"407\",\"408\",\"409\",\"410\",\"411\",\"412\",\"413\",\"414\",\"415\",\"416\",\"417\",\"418\",\"419\",\"420\",\"421\",\"422\",\"423\",\"424\",\"425\",\"426\",\"427\",\"428\",\"429\",\"430\",\"431\",\"432\",\"433\",\"434\",\"435\",\"436\",\"437\",\"438\",\"439\",\"440\",\"441\",\"442\",\"443\",\"444\",\"445\",\"446\",\"447\",\"448\",\"449\",\"450\",\"451\",\"452\",\"453\",\"454\",\"456\",\"457\",\"459\",\"462\",\"463\",\"464\",\"465\",\"471\",\"472\",\"473\",\"474\",\"475\",\"476\",\"480\",\"481\",\"482\",\"483\",\"488\",\"489\",\"491\",\"493\",\"495\"],\"expiry\":1770553594675}"
+        },
+        {
+          "name": "noniabvendorconsent",
+          "value": "QfLYDeQfLYDeAKAaAAIA"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "Nnh0c3gxMTZwM2hmbg=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAKDzLltWz0WzJ2lLCK6XkaEt1nNwtu_qJTGzXRPH0lvQNy_U714euZ7jhLIq9zv5wKj-Bbw"
         }
       ]
     }
