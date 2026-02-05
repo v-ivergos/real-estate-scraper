@@ -19,7 +19,7 @@ export async function postHouses(houses) {
 
 export async function scrapeXE() {
     const browser = await chromium.launch({
-        headless: false,
+        headless: true,
         slowMo: 50
     });
 
