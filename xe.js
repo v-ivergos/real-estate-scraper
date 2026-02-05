@@ -10,7 +10,7 @@ const FIREBASE_API_URL = process.env.FIREBASE_API_URL;
 
 export async function scrapeXE() {
     const browser = await chromium.launch({
-        headless: false,
+        headless: true,
         slowMo: 50
     });
 
